@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>World Of Gamers</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav id="top">
+      <div class="logo">
+        <h4><a href="index.html">World Of Gamers</a></h4>
+      </div>
+    </nav>
+    <article class="index">
+    <h1 class="title" >Create your own gaming PC!</h1>
+    <table class="pcparts">
+      <thead>
+        <tr>
+          <th >PC Parts</th>
+        </tr>
+      </thead>
+      <tbody>
+      <ul style="color:#EBEBEB ">
+        <tr>
+          <td>
+            <li><a href="#CPU">CPU</a></li>
+            <li><a href="#GPU">GPU</a></li>
+            <li><a href="#RAM">RAM</a></li>
+            <li><a href="#SSD/HDD">SSD/HDD</a></li>
+            <li><a href="#MB">Motherboard</a></li>
+            <li><a href="#PSU">Power Supply Unit </a></li>
+            <li><a href="#TEMP">PC Cooling</a></li>
+            <li><a href="#CASE">PC Case</a></li>
+          </td>
+          <img src="images\gaming-pc-setup.jpg" class="pcsetup" alt="A gaming PC setup">
+        </tr>
+     </ul>
+   </tbody>
+  </table>
+<p class="note"><i>Note: Select the parts that you are interested  in!</i></p>
+   <h2 id="CPU">CPU</h2>
+   <div class="card">
+     <div class="card-body">
+   <p class="card-text">
+     Alternately referred to as a processor, central processor, or microprocessor, the CPU (pronounced sea-pea-you) is the central processing unit of the computer. A computer's CPU handles all instructions <span id="dots">...</span><span id="more"> it receives from hardware and software running on the computer. As an example, the CPU processed the instructions to use a web browser to open and display this web page on your computer.
+       <br><br>
+      If you’re primarily interested in high-end gaming performance, you should opt for a mid-range CPU with high clock speeds. Considering that the graphics card is more important for gaming than the processor, you can save money by not getting a more powerful CPU. Otherwise if you want a fast, capable system with extra overhead for future computing tasks and capability for video editing you have to go with more cores and speed.
+      </br></br>
+  </span></p>
+    <button onclick="myFunction(this)" id="myBtn">Read more</button>
+ </div>
+ <label class="container">Intel Core i5-10600K Box (210.45 &euro;)
+   <img src="images\i5.jpeg" class="i5" alt="Intel Core i5-10600K (Box)" title="i5-10600K">
+  <input class="cpu" type="radio" value="210.45" name="cpu">
+  <span class="checkmark"></span>
+</label>
+<label class="container">AMD ​Ryzen 7 3700 Box (262.22 &euro;)
+  <img src="images\r7.webp" class="r7" alt="AMD Ryzen 7 3700X (Box)" title="Ryzen 7 3700X">
+  <input class="cpu" type="radio" value="262.22" name="cpu">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">AMD Ryzen 9 3900X Box (400.99 &euro;)
+  <img src="images\r9.webp" class="r9" alt="AMD Ryzen 9 3900X (Box)" title="Ryzen 9 3900X">
+  <input class="cpu" type="radio" value="400.99" name="cpu">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">Intel Core i9-10900K Box (481.69 &euro;)
+  <img src="images\i9.png" class="i9" alt="intel Core i9-10900K (Box)" title="i9-10900K">
+  <input class="cpu" type="radio" value="481.69" name="cpu">
+  <span class="checkmark"></span>
+</label>
+</div>
+ <h2 id="GPU">GPU</h2>
+<div class="card">
+  <div class="card-body">
+   <p class="card-text">
+     Getting the best graphics card is key if you're looking to build the best gaming PC on your own. The graphics card is even more important for gaming than the CPU for gaming<span id="dots">...</span><span id="more">. There's so much to consider, from the type of monitor you're using (for recommendations, see <a style="color: orange" href="https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html" target="_blank">Best Gaming Monitors</a>  page) to the size of your PC case to the game settings you plan to play at.
+    </span></p>
+      <button onclick="myFunction(this)" id="myBtnTwo">Read more</button>
+    </div>
+    <label class="container">Asus GeForce GTX 1650 4GB TUF Gaming OC (379.00 &euro;)
+      <img src="images\gtx1650.png" class="gtx1650" alt="Asus GeForce GTX 1650 4GB TUF Gaming OC" title="FTX 1650">
+     <input type="radio" class="gpu"  value="379.00" name="gpu">
+     <span class="checkmark"></span>
+   </label>
+   <label class="container">MSI Radeon RX 5700 XT 8GB Gaming X (1300.00 &euro;)
+     <img src="images\rx5700.png" class="rx5700" alt="MSI Radeon RX 5700 XT 8GB Gaming X" title="RX 5700">
+     <input type="radio" class="gpu" value="1300.00" name="gpu">
+     <span class="checkmark"></span>
+   </label>
+
+   <label class="container">AGigabyte GeForce GTX 1660 Super 6GB OC (575.00 &euro;)
+     <img src="images\gtx1660.png" class="gtx1660" alt="AGigabyte GeForce GTX 1660 Super 6GB OC" title="GTX 1660">
+     <input type="radio" class="gpu" value="575.00" name="gpu">
+     <span class="checkmark"></span>
+   </label>
+
+   <label class="container">MSI GeForce RTX 2060 6GB Ventus XS OC (770.00 &euro;)
+     <img src="images\msi2060.png" class="rtx2060" alt="MSI GeForce RTX 2060 6GB Ventus XS OC" title="RTX 2060">
+     <input type="radio" class="gpu" value="770.00" name="gpu">
+     <span class="checkmark"></span>
+   </label>
+  </div>
+
+   <div class="card">
+     <h2 id="RAM">RAM</h2>
+     <div class="card-body">
+   <p class="card-text">
+     Random Access Memory, usually shortened to RAM or simply “memory,” is one of the most important parts of any computing device. Modern PCs typically have from 2GB up to 32GB, though some have even more<span id="dots">...</span><span id="more">. For gaming, 8GB is considered the baseline for AAA titles. However, RAM demands are increasing. Red Dead Redemption 2, for example, recommends 12GB of RAM for optimal performance, while Half-Life: Alyx requires 12GB as a minimum. So, if you want enough overhead to keep playing new releases in the future, 16GB of RAM is recommended. If you plan to do more than just gaming, consider 32GB. This gives you the freedom to live-stream, group-chat on Discord, and have YouTube or Twitch open in the background.</span></p>
+    <button onclick="myFunction(this)" id="myBtnThree">Read more</button>
+  </div>
+  <label class="container">HyperX Fury 4GB DDR4-2666MHz (23.67 &euro;)
+    <img src="images\4gb.jpg" class="4gb" alt="HyperX Fury 4GB DDR4-2666MHz" title="HyperX 4GB">
+   <input type="radio" class="ram"  value="23.67" name="ram">
+   <span class="checkmark"></span>
+ </label>
+ <label class="container">G.Skill Aegis 8GB DDR4-3200MHz (40.69 &euro;)
+   <img src="images\8gb.png" class="8gb" alt="MSI Radeon RX 5700 XT 8GB Gaming X" title="G.Skill 8GB">
+   <input type="radio" class="ram" value="40.69" name="ram">
+   <span class="checkmark"></span>
+ </label>
+
+ <label class="container">Corsair Vengeance RGB Pro 16GB DDR4-3200MHz (104.07 &euro;)
+   <img src="images\16gb.webp" class="16gb" alt="Corsair Vengeance RGB Pro 16GB DDR4-3200MHz" title="Corsair 16GB">
+   <input type="radio" class="ram" value="104.07" name="ram">
+   <span class="checkmark"></span>
+ </label>
+
+ <label class="container">G.Skill Trident Z RGB 32GB DDR4-3200MHz (183.29 &euro;)
+   <img src="images\36gb.png" class="36gb" alt="G.Skill Trident Z RGB 32GB DDR4-3200MHz" title="G.Skill 32GB">
+   <input type="radio" class="ram" value="183.29" name="ram">
+   <span class="checkmark"></span>
+ </label>
+</div>
+<div class="card">
+  <h2 id="SSD/HDD">SSD/HDD</h2>
+  <div class="card-body">
+   <p class="card-text">
+     The main difference between an SSD vs a hard drive is in how data is stored and accessed. A hard disk drive (HDD) is a traditional storage device that uses mechanical platters and a moving read/write head to access data<span id="dots">...</span><span id="more">. A solid state drive (SSD) is a newer, faster type of device that stores data on instantly-accessible memory chips. If you are concerned about how much information you can store on each type of drive, don’t worry. There are no differences in storage capacity. You can get HDDs and SSDs in similar sizes. Generally, you’ll experience much crisper gaming with an SSD. Given the huge amounts of data a game has to shuffle back and forth (loading levels, character models, etc.), an SSD helps games load and run faster. You’ll also experience less stutter when gaming, as the rest of your PC doesn’t need to wait for game data to load – which offers quite an advantage, especially in the eSports arena.
+   <br><br>
+        Our ultimate recommendation is to opt for a mixed system with HDD mass storage and an SSD boot drive for your Windows 10 install. This way, you'll get a balance of price, performance, and space, and you'll have a well-rounded machine for all occasions. If your storage requirements are smaller, an all SSD system is the way to go.</span>
+      </br></br></span></p>
+      <button onclick="myFunction(this)" id="myBtnFour">Read more</button>
+    </div>
+   <label class="container">Samsung 970 Evo Plus SSD 500GB M.2 NVMe (82.50 &euro;)
+     <img src="images\500gb.jpeg" class="500gb" alt="Samsung 970 Evo Plus SSD 500GB M.2 NVMe" title="SAMSUNG SSD 500GB">
+     <input type="checkbox" class="drive" value="82.50" name="drive">
+     <span class="checkmark2"></span>
+   </label>
+
+   <label class="container">Samsung 860 Evo SSD 1TB 2.5'' (99.83 &euro;)
+     <img src="images\1tb.webp" class="1tb" alt="Samsung 860 Evo SSD 1TB 2.5''" title="SAMSUNG SSD 1TB">
+     <input type="checkbox" class="drive" value="99.83" name="drive">
+     <span class="checkmark2"></span>
+   </label>
+
+   <label class="container">Western Digital Blue 1TB (7200rpm) (30.90 &euro;)
+     <img src="images\1tb_hdd.webp" class="1tb" alt="Western Digital Blue 1TB (7200rpm)" title="WD HDD 1TB">
+    <input type="checkbox" class="drive"  value="30.90" name="drive">
+    <span class="checkmark2"></span>
+  </label>
+
+   <label class="container">Western Digital Blue 3D SSD 4TB 2.5'' (403.06 &euro;)
+     <img src="images\4tb.webp" class="4tb" alt="Western Digital Blue 3D SSD 4TB 2.5'' " title="WD SSD 4TB">
+     <input type="checkbox" class="drive" value="403.06" name="drive">
+     <span class="checkmark2"></span>
+   </label>
+  </div>
+  <div class="card">
+   <h2 id="MB">Motherboard</h2>
+   <div class="card-body">
+   <p>
+     A motherboard is a printed circuit board (PCB) that creates a kind of backbone allowing a variety of components to communicate, and that provides different connectors for components such as the central processing unit (CPU), graphics processing unit (GPU), memory, and storage.
+   </p>
+   <label class="container">MSI B450 Tomahawk Max Motherboard ATX with AMD AM4 Socket (95.63 &euro;)
+     <img src="images\b450.png" class="b450" alt="MSI B450 Tomahawk Max Motherboard ATX with AMD AM4 Socket" title="MSI B450">
+     <input type="radio" class="motherboard" value="95.63" name="motherboard">
+     <span class="checkmark"></span>
+   </label>
+
+   <label class="container">MSI Z490 A Pro Motherboard ATX with Intel 1200 Socket (142.32 &euro;)
+     <img src="images\z490.png" class="z490" alt="MSI Z490 A Pro Motherboard ATX with Intel 1200 Socket" title="MSI Z490 A">
+     <input type="radio" class="motherboard" value="142.32" name="motherboard">
+     <span class="checkmark"></span>
+   </label>
+
+   <label class="container">Asus ROG Strix X570-E Gaming Motherboard ATX with AMD AM4 Socket (294.56 &euro;)
+     <img src="images\asus.png" class="asus" alt="Asus ROG Strix X570-E Gaming Motherboard ATX with AMD AM4 Socket" title="ASUS ROG">
+    <input type="radio" class="motherboard"  value="294.56" name="motherboard">
+    <span class="checkmark"></span>
+  </label>
+
+   <label class="container">Gigabyte Aorus X299X Xtreme Waterforce (rev. 1.0) Motherboard XL-ATX with Intel 2066 Socket (1683.93 &euro;)
+     <img src="images\x299x.jpeg" class="x299x" alt="Gigabyte Aorus X299X Xtreme Waterforce (rev. 1.0) Motherboard XL-ATX with Intel 2066 Socket" title="Gigabyte Aorus X299X Xtreme">
+     <input type="radio" class="motherboard" value="1683.93" name="motherboard">
+     <span class="checkmark"></span>
+   </label>
+ </div>
+</div>
+   <div class="card">
+   <h2 id="PSU">PSU</h2>
+   <div class="card-body">
+   <p class="text">
+     Power supplies are a frequently misunderstood—and overlooked—PC component. Many users choose a PC power supply based on total wattage alone, assuming that higher is always synonymous with better <span id="dots">...</span><span id="more">. Others pay no attention to their power supply unit (PSU) selection at all, and settle for whatever abomination arrived with their machine. But considering how important a good power supply is to a system’s stability and long-term reliability, it’s a shame that PSUs get so little attention. You don't need to purchase much more potential power capacity (wattage) than you’ll ever use.<br><br>You can calculate roughly how much power your new or upgraded system will draw from the wall and look for a capacity point that satisfies your demands. Several power supply sellers have calculators that will give you a rough estimate of your system's power needs. <a style="color: orange" href="https://www.coolermaster.com/power-supply-calculator/" target="_blank">(CoolMaster Calculator)</a>
+     <a style="color: orange" href="https://seasonic.com/wattage-calculator" target="_blank">(Seasonic Calculator)</a></br></br></span></p>
+     <button onclick="myFunction(this)" id="myBtnFive">Read more</button>
+   </div>
+   <label class="container">Be Quiet System Power 9 600W Full Wired 80 Plus Bronze (54.79 &euro;)
+     <img src="images\600w.jpg" class="600w" alt="Be Quiet System Power 9 600W Full Wired 80 Plus Bronze" title="Be Quiet 600W-80 Plus Bronze">
+     <input type="radio" class="psu" value="54.79" name="psu">
+     <span class="checkmark"></span>
+   </label>
+
+   <label class="container">Corsair RMx 2018 Series RM850x 850W Full Modular 80 Plus Gold (147.36 &euro;)
+     <img src="images\850w.webp" class="850w" alt="Corsair RMx 2018 Series RM850x 850W Full Modular 80 Plus Gold" title="Corsair RMx 850W-80 Plus Gold">
+     <input type="radio" class="psu" value="147.36" name="psu">
+     <span class="checkmark"></span>
+   </label>
+ </div>
+ <div class="card">
+   <h2 id="TEMP">PC Cooling</h2>
+   <div class="card-body">
+   <p class="card-text">
+     PC cooling is a major factor to consider when building a PC. The basics are simple: demanding workloads (like gaming) result in hardware generating heat. Overheating components can result <span id="dots">...</span><span id="more"> in performance issues. An ideal setup keeps all of your components sufficiently cool and allows you to get the best performance from your system. There are many ways to keep a CPU & a GPU cool, from mineral oil to passive cooling, but by far the most popular solutions are air or liquid coolers. Correctly applied thermal paste is also a key part of any cooling solution, as it acts as a bridge between the CPU and the cooling plate of the CPU cooler.</p></span>
+     <button onclick="myFunction(this)" id="myBtnSix">Read more</button>
+   </div>
+   <label class="container">CoolerMaster MASTERLIQUID ML240L V2 RGB (70.34 &euro;)
+     <img src="images\liquid.png" class="liquid" alt="CoolerMaster MASTERLIQUID ML240L V2 RGB" title="CoolerMaster MASTERLIQUID RGB">
+     <input type="radio" class="cooling" value="70.34" name="cooling">
+     <span class="checkmark"></span>
+   </label>
+
+   <label class="container">Arctic Freezer 34 eSports Duο Red (38.97 &euro;)
+     <img src="images\freezer_red.png" class="freezerRed" alt="Arctic Freezer 34 eSports Duο Red" title="Arctic Freezer Red">
+     <input type="radio" class="cooling" value="38.97" name="cooling">
+     <span class="checkmark"></span>
+   </label>
+ </div>
+ <div class="card">
+   <h2 id="CASE">PC Case</h2>
+   <div class="card-body">
+   <p class="body-text">
+     While computer cases aren’t components that play a direct role in the kind of performance your PC will be able to achieve, they are still very important to your overall system <span id="dots">...</span><span id="more">. PC cases house and protect all of your components and they also play a big role in influencing airflow in your system to keep it running cool. There are three major case sizes: Full tower, mid-tower, and mini-ITX.</p></span>
+     <button onclick="myFunction(this)" id="myBtnSeven">Read more</button>
+   </div>
+   <label class="container">Cougar MX410 Mesh-G RGB (63.90 &euro;)
+     <img src="images\cougar.png" class="cougarRGB" alt="Cougar MX410 Mesh-G RGB">
+     <input type="radio" class="case" value="63.90" name="case">
+     <span class="checkmark"></span>
+   </label>
+
+   <label class="container">NZXT H510 Red (77.88 &euro;)
+     <img src="images\nzxtRed.png" class="caseRed" alt="NZXT H510 Red">
+     <input type="radio" class="case" value="77.88" name="case">
+     <span class="checkmark"></span>
+   </label>
+ </div>
+ <a href="#top"><i>Go To Top</i></a>
+   <div class="cost">
+     <div class="block">
+       <h1 class="totaltext">TOTAL PRICE</h1>
+     </div>
+     <div class="allResults">
+     <button onclick="testFunction()" class="total" style="font-weight:bold";>Calculate Total:</button>
+        </div>
+     <textarea class="result" style="font-size: 30pt" id="txtresult" readonly></textarea>
+     <button class="clear" onclick="location.reload();" style="font-size:24px">Clear All<i class="fa fa-refresh"></i></button>
+   </div>
+ </article>
+    <footer>
+      <p>&copy; World Of Gamers 2021</p>
+    </footer>
+<script src="js\functions.js"></script>)
+  </body>
+
+</html>
